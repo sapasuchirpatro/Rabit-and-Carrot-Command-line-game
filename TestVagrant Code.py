@@ -52,7 +52,7 @@ while(1):
 # Details of past 5 matches of the ipl teams
 team_details = [['gt', 20, 'wwllw'], ['lsg', 18, 'wllww'], ['rr', 16, 'wlwll'], ['dc', 14, 'wwlwl'], ['rcb', 14, 'lwwll'], ['kkr', 12, 'lwwlw'], ['pbks', 12, 'lwlwl'], ['srh', 12, 'wllll'], ['csk', 8, 'llwlw'], ['mi', 6, 'lwlww']]
 
-# Create an object
+# Object is created
 tp = TeamPerformace(no_of_consecutive_wins_or_losses, team_details, loss_or_win)
 
 tp.checkPerformance()
