@@ -8,7 +8,7 @@ class TeamPerformace:
 
     def checkPerformance(self):
         """
-        This will filter the teams having 'n' consecutive wins/losses and the team names will be 
+        This method will filter the teams having 'n' consecutive wins/losses and the team names will be 
         stored in an array(filtered_teams).
         """
         print(f'\nFinding the list of teams having {self.no_of_consecutive_wins_or_losses} consecutive {self.loss_or_win}: ')
